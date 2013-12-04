@@ -12,8 +12,7 @@ end
 -- might become negative on the second that clock wraps.
 
 
-io.write("Hello, can you give me a number? ")
-io.write("Hello, maybe give me a number? ")
+io.write("Hello, may you input me a number? ")
 theirNumber = io.read()
 while tonumber(theirNumber) == nil do
 	io.write("I'm sorry, that didn't seem to be a number, try again: ")
